@@ -1,15 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: lightsalmon;
+    margin: 0;
+	padding: 1rem;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
 }
 
 .main_title {
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.second_title {
+    font-size: 30px;
+}
+
+ol {
+	padding: 0;
+	margin: 0;
+	max-width: auto;
+	position: relative;
+}
+
+ol::before {
+	content: '';
+	width: 0.5rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 8%;
+	background: peachpuff;
+	z-index: -1;
+
+}
+
+li {
+	padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: peachpuff;
+}
+
+li + li {
+	margin-top: 1rem;
+}
+
+::marker {
+	font-weight: 600;
+	color: rgb(255, 38, 0);
+	font-size: 1.8rem;
 }
