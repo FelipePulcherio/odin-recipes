@@ -23,12 +23,12 @@ body {
     height: auto;
 }
 
-.para {
-	font-size: 1rem;
-}
-
 .second_title {
     font-size: 30px;
+}
+
+.para {
+	font-size: 1rem;
 }
 
 ul {
