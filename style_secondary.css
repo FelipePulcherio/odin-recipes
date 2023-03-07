@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: lightsalmon;
+    margin: 0rem;
+	padding: 1rem;
+	min-height: 100vh;
+}
+
+.main_title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+.para {
+	font-size: 1rem;
+}
+
+.second_title {
+    font-size: 30px;
+}
+
+ul {
+	padding: 1rem;
+	margin: 0;
+	max-width: auto;
+	position: relative;
+}
+
+ul::before {
+	content: '';
+	width: 0rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 8%;
+	background: peachpuff;
+	z-index: -1;
+
+}
+
+li {
+	padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: peachpuff;
+}
+
+li + li {
+	margin-top: 1rem;
+}
+
+::marker {
+	font-weight: 600;
+	color: rgb(255, 38, 0);
+	font-size: 1.2rem;
+}
