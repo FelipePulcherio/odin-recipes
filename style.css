@@ -24,7 +24,7 @@ body {
 }
 
 .para {
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .second_title {
@@ -40,7 +40,7 @@ ol {
 
 ol::before {
 	content: '';
-	width: 0.5rem;
+	width: 0rem;
 	height: 100%;
 	position: absolute;
 	top: 0;
